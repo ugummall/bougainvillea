@@ -1,0 +1,19 @@
+safe:        false
+port:        4000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink:   /:year/:month/:title
+
+title:       My Bougain Villea
+description: My Bougain Villea d
+author:      Uday Gummalla
+email:       uday.gummalla@gmail.com
+
+exclude:     [writing, drafts, _site, scripts, zim]
+
