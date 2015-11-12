@@ -10,10 +10,10 @@ lsi:         false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink:   /:year/:month/:title
 
-title:       Engineer an Open World
-description: Notebooks 
-author:      Jenner Hanni
-email:       jeh.wicker@gmail.com
+title:       My Bougainvillea at Kondapur, Ghatkesar
+description: My Bougainvillea at Kondapur, Ghatkesar, D
+author:      Uday Gummalla
+email:       uday.gummalla@gmail.com
 
 exclude:     [writing, drafts, _site, scripts, zim]
 
