@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Securing my old code"
+image: https://farm6.staticflickr.com/5715/20904766339_3c6372f16e_k.jpg
 ---
 
 I felt I am fortunate enough to find my very old code. I lost that computer but I put up that code in HTML format in a very old blog. I am able to hack that today and got my code back. 
