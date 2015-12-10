@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.mathjax %}
+  <script
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+type="text/javascript">
+</script>
+  {% endif %}
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+</head>
+<body class="code-snippets-visible">
+
+  <div class="container outer">
+    {% if page.special %}
+    <section class="header" style="background-image: url(/img/mccall.png); background-size: cover; min-height: 400px;">
+    {% else %}
+    <section class="header" style="background-image: url(/img/coast.png); background-size: cover; min-height: 200px;">
+    {% endif %}
+      <a class="button button-primary" href="/" style="float:left;">Bougainvillea</a>
+      <a class="button button-primary" href="http://uday.gummalla.com" style="float:right;">Uday Gummalla</a>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="http://uday.gummalla.com">Coming Soon...</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    {% if page.special %}
+    {% else %}
+    <div style="text-align:justify;">{{ content }}</div>
+    {% endif %}
+  </div>
+
+</body>
+</html>
